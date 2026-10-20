@@ -16,7 +16,16 @@ from storage.history_store import HistoryStore
 Config.ensure_directories()
 app = Flask(__name__)
 app.config.from_object(Config)
-CORS(app)
+CORS(
+    app,
+    resources={
+        r"/api/*": {
+            "origins": "*"
+        }
+    },
+    methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Accept"]
+)
 store = SessionStore()
 history_store = HistoryStore()
 
@@ -249,5 +258,11 @@ def not_found(_error_value):
     return _error("Rejected", "API route not found.", 404)
 
 
+import os
+
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=int(__import__("os").environ.get("PORT", "5000")), debug=False)
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", "5000")),
+        debug=False
+    )
