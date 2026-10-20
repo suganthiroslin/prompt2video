@@ -1,6 +1,8 @@
 "use strict";
 
-const API_BASE_URL = (window.PROMPT2EDIT_API_URL || "http://127.0.0.1:5000").replace(/\/+$/, "");
+const API_BASE_URL = (
+    window.PROMPT2EDIT_API_URL || "https://prompt2video.onrender.com"
+).replace(/\/+$/, "");
 const $ = (id) => document.getElementById(id);
 
 let sessionId = null;
