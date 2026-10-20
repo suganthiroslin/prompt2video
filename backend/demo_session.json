@@ -1,0 +1,7 @@
+{
+  "prompts": [
+    "Cut the video from 2 to 4 seconds",
+    "Mute the audio from 5 to 6 seconds",
+    "Add caption 'Assessment demo' from 1 to 3 seconds"
+  ]
+}

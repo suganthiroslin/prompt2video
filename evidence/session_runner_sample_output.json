@@ -1,0 +1,242 @@
+{
+  "runs": 3,
+  "hashes": [
+    "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+    "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+    "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b"
+  ],
+  "all_hashes_match": true,
+  "results": [
+    {
+      "steps": [
+        {
+          "prompt": "Cut the video from 2 to 4 seconds",
+          "status": "Applied",
+          "message": "Cut from 2s to 4s was added to the timeline."
+        },
+        {
+          "prompt": "Mute the audio from 5 to 6 seconds",
+          "status": "Applied",
+          "message": "Mute from 5s to 6s was added to the timeline."
+        },
+        {
+          "prompt": "Add caption 'Assessment demo' from 1 to 3 seconds",
+          "status": "Applied",
+          "message": "Caption anchored to original source time 1s\u20133s."
+        }
+      ],
+      "timeline_hash": "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+      "timeline": {
+        "status": "success",
+        "version": 3,
+        "operations": [
+          {
+            "operation_type": "cut",
+            "parameters": {
+              "start": 2.0,
+              "end": 4.0
+            },
+            "operation_id": "53462a13-a4b9-409d-85b2-a18f5cb3f4fa",
+            "created_at": "2026-10-20T08:59:02.860670+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 2.0,
+              "end": 4.0
+            }
+          },
+          {
+            "operation_type": "mute",
+            "parameters": {
+              "start": 5.0,
+              "end": 6.0
+            },
+            "operation_id": "816e0324-b933-4e80-be6e-074132e9284a",
+            "created_at": "2026-10-20T08:59:02.860953+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 5.0,
+              "end": 6.0
+            }
+          },
+          {
+            "operation_type": "caption",
+            "parameters": {
+              "start": 1.0,
+              "end": 3.0,
+              "text": "Assessment demo"
+            },
+            "operation_id": "827c6a1c-3708-4d1e-ae3a-5926307a4483",
+            "created_at": "2026-10-20T08:59:02.862116+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 1.0,
+              "end": 3.0
+            }
+          }
+        ],
+        "timeline_hash": "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+        "time_policy": {
+          "time_policy": "original_source_time",
+          "name": "Original Source Time",
+          "description": "All timestamps refer to the untouched original video timeline. Cuts, speed changes and reordering do not change the coordinate system used by later instructions."
+        },
+        "can_undo": true,
+        "can_redo": false
+      }
+    },
+    {
+      "steps": [
+        {
+          "prompt": "Cut the video from 2 to 4 seconds",
+          "status": "Applied",
+          "message": "Cut from 2s to 4s was added to the timeline."
+        },
+        {
+          "prompt": "Mute the audio from 5 to 6 seconds",
+          "status": "Applied",
+          "message": "Mute from 5s to 6s was added to the timeline."
+        },
+        {
+          "prompt": "Add caption 'Assessment demo' from 1 to 3 seconds",
+          "status": "Applied",
+          "message": "Caption anchored to original source time 1s\u20133s."
+        }
+      ],
+      "timeline_hash": "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+      "timeline": {
+        "status": "success",
+        "version": 3,
+        "operations": [
+          {
+            "operation_type": "cut",
+            "parameters": {
+              "start": 2.0,
+              "end": 4.0
+            },
+            "operation_id": "2cae135e-5602-4f1f-85f6-12e2eaee32fa",
+            "created_at": "2026-10-20T08:59:02.862816+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 2.0,
+              "end": 4.0
+            }
+          },
+          {
+            "operation_type": "mute",
+            "parameters": {
+              "start": 5.0,
+              "end": 6.0
+            },
+            "operation_id": "9170a5f7-e863-4fba-adc6-c2490998c9e4",
+            "created_at": "2026-10-20T08:59:02.862925+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 5.0,
+              "end": 6.0
+            }
+          },
+          {
+            "operation_type": "caption",
+            "parameters": {
+              "start": 1.0,
+              "end": 3.0,
+              "text": "Assessment demo"
+            },
+            "operation_id": "302434b3-6bfd-4133-9aef-587e1ce0bc97",
+            "created_at": "2026-10-20T08:59:02.863093+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 1.0,
+              "end": 3.0
+            }
+          }
+        ],
+        "timeline_hash": "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+        "time_policy": {
+          "time_policy": "original_source_time",
+          "name": "Original Source Time",
+          "description": "All timestamps refer to the untouched original video timeline. Cuts, speed changes and reordering do not change the coordinate system used by later instructions."
+        },
+        "can_undo": true,
+        "can_redo": false
+      }
+    },
+    {
+      "steps": [
+        {
+          "prompt": "Cut the video from 2 to 4 seconds",
+          "status": "Applied",
+          "message": "Cut from 2s to 4s was added to the timeline."
+        },
+        {
+          "prompt": "Mute the audio from 5 to 6 seconds",
+          "status": "Applied",
+          "message": "Mute from 5s to 6s was added to the timeline."
+        },
+        {
+          "prompt": "Add caption 'Assessment demo' from 1 to 3 seconds",
+          "status": "Applied",
+          "message": "Caption anchored to original source time 1s\u20133s."
+        }
+      ],
+      "timeline_hash": "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+      "timeline": {
+        "status": "success",
+        "version": 3,
+        "operations": [
+          {
+            "operation_type": "cut",
+            "parameters": {
+              "start": 2.0,
+              "end": 4.0
+            },
+            "operation_id": "8705ea44-afad-4db8-8af7-655f6e50b03a",
+            "created_at": "2026-10-20T08:59:02.863313+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 2.0,
+              "end": 4.0
+            }
+          },
+          {
+            "operation_type": "mute",
+            "parameters": {
+              "start": 5.0,
+              "end": 6.0
+            },
+            "operation_id": "48f37312-41e0-4f2b-9b04-9d1a85f69d58",
+            "created_at": "2026-10-20T08:59:02.863410+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 5.0,
+              "end": 6.0
+            }
+          },
+          {
+            "operation_type": "caption",
+            "parameters": {
+              "start": 1.0,
+              "end": 3.0,
+              "text": "Assessment demo"
+            },
+            "operation_id": "d3f4117a-3cee-4f7b-b197-a7294abf6dd1",
+            "created_at": "2026-10-20T08:59:02.863545+00:00",
+            "anchor": {
+              "coordinate_system": "original_source_time",
+              "start": 1.0,
+              "end": 3.0
+            }
+          }
+        ],
+        "timeline_hash": "921b8b39f4bda37c843d056e0495551e81cdd30405f9c981fc14c39b0d23626b",
+        "time_policy": {
+          "time_policy": "original_source_time",
+          "name": "Original Source Time",
+          "description": "All timestamps refer to the untouched original video timeline. Cuts, speed changes and reordering do not change the coordinate system used by later instructions."
+        },
+        "can_undo": true,
+        "can_redo": false
+      }
+    }
+  ]
+}

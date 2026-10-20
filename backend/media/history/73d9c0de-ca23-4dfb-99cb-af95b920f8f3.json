@@ -1,0 +1,61 @@
+{
+  "active_history": [
+    {
+      "created_at": "2026-10-20T10:30:54.104407+00:00",
+      "operations": [],
+      "timeline_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "version": 0
+    },
+    {
+      "created_at": "2026-10-20T10:31:19.920942+00:00",
+      "operations": [
+        {
+          "anchor": {
+            "coordinate_system": "original_source_time",
+            "end": 45.0,
+            "start": 3.0
+          },
+          "created_at": "2026-10-20T10:31:19.920942+00:00",
+          "operation_id": "d3def00c-3112-4c9b-bc93-897100af8f52",
+          "operation_type": "effect",
+          "parameters": {
+            "end": 45.0,
+            "name": "grayscale",
+            "start": 3.0
+          }
+        }
+      ],
+      "timeline_hash": "477ac24dd2b52a4220eda828ff788efebb088cf03e71807569335ac6369e2e23",
+      "version": 1
+    }
+  ],
+  "active_index": 1,
+  "archived_versions": [
+    0,
+    1
+  ],
+  "audit_log": [
+    {
+      "action": "apply",
+      "at": "2026-10-20T10:31:19.920942+00:00",
+      "operation": {
+        "anchor": {
+          "coordinate_system": "original_source_time",
+          "end": 45.0,
+          "start": 3.0
+        },
+        "created_at": "2026-10-20T10:31:19.920942+00:00",
+        "operation_id": "d3def00c-3112-4c9b-bc93-897100af8f52",
+        "operation_type": "effect",
+        "parameters": {
+          "end": 45.0,
+          "name": "grayscale",
+          "start": 3.0
+        }
+      },
+      "version": 1
+    }
+  ],
+  "can_redo": false,
+  "can_undo": true
+}

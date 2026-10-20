@@ -1,0 +1,99 @@
+{
+  "active_history": [
+    {
+      "created_at": "2026-10-20T09:25:19.316104+00:00",
+      "operations": [],
+      "timeline_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "version": 0
+    },
+    {
+      "created_at": "2026-10-20T09:25:24.842537+00:00",
+      "operations": [
+        {
+          "created_at": "2026-10-20T09:25:24.840479+00:00",
+          "operation_id": "461f7b85-96e6-4f89-862c-527f5bb19194",
+          "operation_type": "speed",
+          "parameters": {
+            "factor": 2.0,
+            "whole_source": true
+          }
+        }
+      ],
+      "timeline_hash": "3f800f5a97a569b3a3be986599a2ff4d2e11a167177da467123adda5b1fbf0f9",
+      "version": 1
+    },
+    {
+      "created_at": "2026-10-20T09:28:50.056068+00:00",
+      "operations": [
+        {
+          "created_at": "2026-10-20T09:25:24.840479+00:00",
+          "operation_id": "461f7b85-96e6-4f89-862c-527f5bb19194",
+          "operation_type": "speed",
+          "parameters": {
+            "factor": 2.0,
+            "whole_source": true
+          }
+        },
+        {
+          "anchor": {
+            "coordinate_system": "original_source_time",
+            "end": 5.0,
+            "start": 2.0
+          },
+          "created_at": "2026-10-20T09:28:50.056068+00:00",
+          "operation_id": "2d0d62dc-a0d3-403c-9399-1c0506844eb3",
+          "operation_type": "cut",
+          "parameters": {
+            "end": 5.0,
+            "start": 2.0
+          }
+        }
+      ],
+      "timeline_hash": "532e4858937ea37114ae40ad38a993e61b6916f17c61d8c5d9a1cd6b1db0b834",
+      "version": 2
+    }
+  ],
+  "active_index": 2,
+  "archived_versions": [
+    0,
+    1,
+    2
+  ],
+  "audit_log": [
+    {
+      "action": "apply",
+      "at": "2026-10-20T09:25:24.842537+00:00",
+      "operation": {
+        "created_at": "2026-10-20T09:25:24.840479+00:00",
+        "operation_id": "461f7b85-96e6-4f89-862c-527f5bb19194",
+        "operation_type": "speed",
+        "parameters": {
+          "factor": 2.0,
+          "whole_source": true
+        }
+      },
+      "version": 1
+    },
+    {
+      "action": "apply",
+      "at": "2026-10-20T09:28:50.056068+00:00",
+      "operation": {
+        "anchor": {
+          "coordinate_system": "original_source_time",
+          "end": 5.0,
+          "start": 2.0
+        },
+        "created_at": "2026-10-20T09:28:50.056068+00:00",
+        "operation_id": "2d0d62dc-a0d3-403c-9399-1c0506844eb3",
+        "operation_type": "cut",
+        "parameters": {
+          "end": 5.0,
+          "start": 2.0
+        }
+      },
+      "version": 2
+    }
+  ],
+  "can_redo": false,
+  "can_undo": true
+}

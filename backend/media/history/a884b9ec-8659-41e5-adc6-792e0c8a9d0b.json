@@ -1,0 +1,116 @@
+{
+  "active_history": [
+    {
+      "created_at": "2026-10-20T09:23:09.986291+00:00",
+      "operations": [],
+      "timeline_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "version": 0
+    },
+    {
+      "created_at": "2026-10-20T09:23:22.855962+00:00",
+      "operations": [
+        {
+          "anchor": {
+            "coordinate_system": "original_source_time",
+            "end": 5.0,
+            "start": 2.0
+          },
+          "created_at": "2026-10-20T09:23:22.855962+00:00",
+          "operation_id": "9bad06df-3f82-4ddc-8b42-538c9bd87b92",
+          "operation_type": "cut",
+          "parameters": {
+            "end": 5.0,
+            "start": 2.0
+          }
+        }
+      ],
+      "timeline_hash": "d5d983d8a0fad9a0612ac1d5ce5ab9dc78cd5185d728ea8bbb0a67aa7b092756",
+      "version": 1
+    },
+    {
+      "created_at": "2026-10-20T09:24:09.541612+00:00",
+      "operations": [
+        {
+          "anchor": {
+            "coordinate_system": "original_source_time",
+            "end": 5.0,
+            "start": 2.0
+          },
+          "created_at": "2026-10-20T09:23:22.855962+00:00",
+          "operation_id": "9bad06df-3f82-4ddc-8b42-538c9bd87b92",
+          "operation_type": "cut",
+          "parameters": {
+            "end": 5.0,
+            "start": 2.0
+          }
+        },
+        {
+          "anchor": {
+            "coordinate_system": "original_source_time",
+            "end": 4.0,
+            "start": 1.0
+          },
+          "created_at": "2026-10-20T09:24:09.541612+00:00",
+          "operation_id": "54d9d468-4790-4345-aed1-c94cbcbf1d0b",
+          "operation_type": "caption",
+          "parameters": {
+            "end": 4.0,
+            "start": 1.0,
+            "text": "Hello world"
+          }
+        }
+      ],
+      "timeline_hash": "23df482916d7c1fe88323d206a4b65d1d4d27a19f35755be9de3260f494b38f0",
+      "version": 2
+    }
+  ],
+  "active_index": 2,
+  "archived_versions": [
+    0,
+    1,
+    2
+  ],
+  "audit_log": [
+    {
+      "action": "apply",
+      "at": "2026-10-20T09:23:22.855962+00:00",
+      "operation": {
+        "anchor": {
+          "coordinate_system": "original_source_time",
+          "end": 5.0,
+          "start": 2.0
+        },
+        "created_at": "2026-10-20T09:23:22.855962+00:00",
+        "operation_id": "9bad06df-3f82-4ddc-8b42-538c9bd87b92",
+        "operation_type": "cut",
+        "parameters": {
+          "end": 5.0,
+          "start": 2.0
+        }
+      },
+      "version": 1
+    },
+    {
+      "action": "apply",
+      "at": "2026-10-20T09:24:09.541612+00:00",
+      "operation": {
+        "anchor": {
+          "coordinate_system": "original_source_time",
+          "end": 4.0,
+          "start": 1.0
+        },
+        "created_at": "2026-10-20T09:24:09.541612+00:00",
+        "operation_id": "54d9d468-4790-4345-aed1-c94cbcbf1d0b",
+        "operation_type": "caption",
+        "parameters": {
+          "end": 4.0,
+          "start": 1.0,
+          "text": "Hello world"
+        }
+      },
+      "version": 2
+    }
+  ],
+  "can_redo": false,
+  "can_undo": true
+}

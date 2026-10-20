@@ -1,0 +1,89 @@
+{
+  "active_history": [
+    {
+      "created_at": "2026-10-20T10:49:55.033051+00:00",
+      "operations": [],
+      "timeline_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "version": 0
+    },
+    {
+      "created_at": "2026-10-20T10:50:03.276742+00:00",
+      "operations": [
+        {
+          "created_at": "2026-10-20T10:50:03.276742+00:00",
+          "operation_id": "46dce8a3-0bce-4f05-87df-67e5be4f2f77",
+          "operation_type": "effect",
+          "parameters": {
+            "name": "grayscale",
+            "whole_source": true
+          }
+        }
+      ],
+      "timeline_hash": "c315fc7f72fa363a399fd8a9a8ac7373ac10c5c04df3f45bba28771e959112d5",
+      "version": 1
+    },
+    {
+      "created_at": "2026-10-20T10:50:44.647290+00:00",
+      "operations": [
+        {
+          "created_at": "2026-10-20T10:50:03.276742+00:00",
+          "operation_id": "46dce8a3-0bce-4f05-87df-67e5be4f2f77",
+          "operation_type": "effect",
+          "parameters": {
+            "name": "grayscale",
+            "whole_source": true
+          }
+        },
+        {
+          "created_at": "2026-10-20T10:50:44.647290+00:00",
+          "operation_id": "9418906f-553d-4bc9-b0cd-86e1258a590b",
+          "operation_type": "speed",
+          "parameters": {
+            "factor": 2.0,
+            "whole_source": true
+          }
+        }
+      ],
+      "timeline_hash": "6374c6135945281abc23602a20990be3e57800d3b82b5f1a328e7fc862e7f50f",
+      "version": 2
+    }
+  ],
+  "active_index": 2,
+  "archived_versions": [
+    0,
+    1,
+    2
+  ],
+  "audit_log": [
+    {
+      "action": "apply",
+      "at": "2026-10-20T10:50:03.276742+00:00",
+      "operation": {
+        "created_at": "2026-10-20T10:50:03.276742+00:00",
+        "operation_id": "46dce8a3-0bce-4f05-87df-67e5be4f2f77",
+        "operation_type": "effect",
+        "parameters": {
+          "name": "grayscale",
+          "whole_source": true
+        }
+      },
+      "version": 1
+    },
+    {
+      "action": "apply",
+      "at": "2026-10-20T10:50:44.647290+00:00",
+      "operation": {
+        "created_at": "2026-10-20T10:50:44.647290+00:00",
+        "operation_id": "9418906f-553d-4bc9-b0cd-86e1258a590b",
+        "operation_type": "speed",
+        "parameters": {
+          "factor": 2.0,
+          "whole_source": true
+        }
+      },
+      "version": 2
+    }
+  ],
+  "can_redo": false,
+  "can_undo": true
+}

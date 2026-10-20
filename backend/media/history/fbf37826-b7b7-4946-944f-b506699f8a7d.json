@@ -1,0 +1,49 @@
+{
+  "active_history": [
+    {
+      "created_at": "2026-10-20T10:48:54.227216+00:00",
+      "operations": [],
+      "timeline_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "version": 0
+    },
+    {
+      "created_at": "2026-10-20T10:49:13.353133+00:00",
+      "operations": [
+        {
+          "created_at": "2026-10-20T10:49:13.353133+00:00",
+          "operation_id": "5c10f336-07d7-4483-a751-1d2ae1c3d263",
+          "operation_type": "effect",
+          "parameters": {
+            "name": "grayscale",
+            "whole_source": true
+          }
+        }
+      ],
+      "timeline_hash": "c315fc7f72fa363a399fd8a9a8ac7373ac10c5c04df3f45bba28771e959112d5",
+      "version": 1
+    }
+  ],
+  "active_index": 1,
+  "archived_versions": [
+    0,
+    1
+  ],
+  "audit_log": [
+    {
+      "action": "apply",
+      "at": "2026-10-20T10:49:13.353133+00:00",
+      "operation": {
+        "created_at": "2026-10-20T10:49:13.353133+00:00",
+        "operation_id": "5c10f336-07d7-4483-a751-1d2ae1c3d263",
+        "operation_type": "effect",
+        "parameters": {
+          "name": "grayscale",
+          "whole_source": true
+        }
+      },
+      "version": 1
+    }
+  ],
+  "can_redo": false,
+  "can_undo": true
+}

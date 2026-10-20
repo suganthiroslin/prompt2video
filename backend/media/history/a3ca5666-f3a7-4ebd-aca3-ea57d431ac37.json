@@ -1,0 +1,119 @@
+{
+  "active_history": [
+    {
+      "created_at": "2026-10-20T10:46:06.640344+00:00",
+      "operations": [],
+      "timeline_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "version": 0
+    },
+    {
+      "created_at": "2026-10-20T10:47:11.635769+00:00",
+      "operations": [
+        {
+          "created_at": "2026-10-20T10:47:11.635769+00:00",
+          "operation_id": "5becdfa8-d099-40c9-b89b-0ab71ef63100",
+          "operation_type": "effect",
+          "parameters": {
+            "name": "contrast",
+            "value": 1.2,
+            "whole_source": true
+          }
+        }
+      ],
+      "timeline_hash": "60452daa03d3716963b1eaef2676f493d11e6363417f986b61a3e69c9f364cd6",
+      "version": 2
+    },
+    {
+      "created_at": "2026-10-20T10:48:07.451712+00:00",
+      "operations": [
+        {
+          "created_at": "2026-10-20T10:47:11.635769+00:00",
+          "operation_id": "5becdfa8-d099-40c9-b89b-0ab71ef63100",
+          "operation_type": "effect",
+          "parameters": {
+            "name": "contrast",
+            "value": 1.2,
+            "whole_source": true
+          }
+        },
+        {
+          "created_at": "2026-10-20T10:48:07.451712+00:00",
+          "operation_id": "66310fdb-8b8b-4029-b3ec-7e7f8782dfe0",
+          "operation_type": "effect",
+          "parameters": {
+            "name": "contrast",
+            "value": 0.8,
+            "whole_source": true
+          }
+        }
+      ],
+      "timeline_hash": "9215dac67addf4d243c233c28d03360ea514a071ae9cb5da1ae4ec7138ec9f20",
+      "version": 3
+    }
+  ],
+  "active_index": 2,
+  "archived_versions": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "audit_log": [
+    {
+      "action": "apply",
+      "at": "2026-10-20T10:46:27.707593+00:00",
+      "operation": {
+        "anchor": {
+          "coordinate_system": "original_source_time",
+          "end": 5.0,
+          "start": 2.0
+        },
+        "created_at": "2026-10-20T10:46:27.706771+00:00",
+        "operation_id": "9d5a2d23-bcd0-4660-9f13-488d05047bcd",
+        "operation_type": "cut",
+        "parameters": {
+          "end": 5.0,
+          "start": 2.0
+        }
+      },
+      "version": 1
+    },
+    {
+      "action": "undo",
+      "at": "2026-10-20T10:46:59.759061+00:00",
+      "version": 0
+    },
+    {
+      "action": "apply",
+      "at": "2026-10-20T10:47:11.635769+00:00",
+      "operation": {
+        "created_at": "2026-10-20T10:47:11.635769+00:00",
+        "operation_id": "5becdfa8-d099-40c9-b89b-0ab71ef63100",
+        "operation_type": "effect",
+        "parameters": {
+          "name": "contrast",
+          "value": 1.2,
+          "whole_source": true
+        }
+      },
+      "version": 2
+    },
+    {
+      "action": "apply",
+      "at": "2026-10-20T10:48:07.451712+00:00",
+      "operation": {
+        "created_at": "2026-10-20T10:48:07.451712+00:00",
+        "operation_id": "66310fdb-8b8b-4029-b3ec-7e7f8782dfe0",
+        "operation_type": "effect",
+        "parameters": {
+          "name": "contrast",
+          "value": 0.8,
+          "whole_source": true
+        }
+      },
+      "version": 3
+    }
+  ],
+  "can_redo": false,
+  "can_undo": true
+}

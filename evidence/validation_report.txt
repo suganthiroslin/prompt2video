@@ -1,0 +1,19 @@
+Prompt2Video validation report
+Generated: 2026-10-20
+
+Checks run in the packaging environment:
+- JavaScript syntax check: passed (node --check frontend/static/script.js).
+- Python bytecode compilation: passed (python -m compileall -q backend).
+- Backend unit/render tests: 30 passed, 1 skipped.
+- Skipped test: backend/tests/test_api.py was skipped because Flask is not installed in the packaging environment. Flask and Flask-CORS are listed in backend/requirements.txt. Install all dependencies and rerun tests before relying on API test results.
+- Determinism session runner: 3 runs completed with identical timeline_hash values.
+
+Important assessment limitation:
+- Content/time anchoring is implemented using user-provided source-time intervals and a source-to-output mapping. It does not automatically transcribe speech or identify individual spoken words. If the assessor expects word-level ASR alignment, that component remains to be implemented and tested.
+- The render verifier checks media/frame/audio durations against the configured frame tolerance. This does not independently prove perceptual lip-sync for every arbitrary input; listen to and inspect the rendered footage.
+- The session registry is in memory and resets when the backend process restarts. Uploaded/rendered files are written separately on disk.
+
+Rerun all checks from backend/ after installing requirements:
+  python -m pip install -r requirements.txt
+  python -m pytest -v
+  python session_runner.py --script demo_session.json --runs 3
